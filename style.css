@@ -1,0 +1,50 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.header{
+    display:flex;
+    justify-content: space-around;
+}
+
+ul{
+    list-style-type: none;
+    display: flex;
+}
+
+.content{
+    display: flex;
+    justify-content: space-around;
+}
+
+img{
+    max-width: 200px;
+    max-height: 100px;
+}
+
+h2{
+    text-align: center;
+}
+
+.container{
+    display:flex;
+    justify-content: center;
+}
+
+.quote{
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+}
+
+.sign-up-container{
+    display: flex;
+    justify-content: center;
+}
+
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
