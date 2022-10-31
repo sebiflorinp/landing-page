@@ -95,6 +95,12 @@ h2{
     background-color: #1f2937;
 }
 
+a,
+a:visited{
+    text-decoration-line: none;
+    color: #f9faf8;
+}
+
 .container{
     font-size: 18px;
     background-color: #1f2937;
