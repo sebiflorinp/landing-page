@@ -30,6 +30,16 @@ ul{
     padding: 20px;
 }
 
+.content-1 button{
+    margin-left: 30px;
+}
+
+.container img{
+    align-self: center;
+    max-width: 10%;
+    max-height: 10%;
+}
+
 h2{
     text-align: center;
 }
@@ -43,6 +53,7 @@ h2{
 
 .info-card p{
     text-align: center;
+    max-width: 140px;
 }
 
 .quote-container{
@@ -118,6 +129,10 @@ li,
     font-style: italic;
 }
 
+.quote-container .quote-author{
+    font-size: 24px;
+}
+
 .sign-up-container,
 .sign-up-container button{
     background-color: #3882F6;
@@ -147,14 +162,26 @@ h2{
     padding: 5px 20px 5px 20px;
     color: #e5e7eb;
     font-weight: bold;
+    width: 100px;
+}
+
+.sign-up-text p{
+    max-width: 80%;
 }
 
 .sign-up-container button{
     border-color: #e5e7eb;
     font-weight: normal;
     padding: 2.5px 20px 2.5px 20px;
+    width: 150px;
 }
 
 .footer{
     color: #e5e7eb;
+}
+
+h1,
+.content-1 p{
+    max-width: 90%;
+    margin: 20px;
 }
